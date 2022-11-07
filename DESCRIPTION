@@ -1,12 +1,22 @@
 Package: CITEseq
-Title: What the Package Does (One Line, Title Case)
+Title: Collection of Public CITE-seq Datasets
 Version: 0.0.0.9000
+Data: 2022-10-11
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Helen", "Lindsay", email = "helen.lindsay@chuv.ch",
+           role = c("aut", "cre")),
+    person("Bernat", "Bramon Mora", email = "bernat.bramon@chuv.ch",
+           role = c("aut", "cre"))
+Description: Counts for genes and antibody-derived tags for a collection of
+    publically available CITE-seq datasets, in SingleCellExperiment format.
+License: CCO
+Depends:
+    SingleCellExperiment
+Suggests:
+    BiocStyle,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
