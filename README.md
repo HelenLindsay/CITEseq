@@ -4,22 +4,5 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of CITEseq is to ...
-
-## Installation
-
-You can install the development version of CITEseq like so:
-
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(CITEseq)
-## basic example code
-```
+A collection of publicly available CITE-seq data sets, with consistent naming.
 
