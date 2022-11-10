@@ -20,7 +20,7 @@
 #'Buus, Terkild B., et al. 'Improving oligo-conjugated
 #'antibody signal in multimodal single-cell analysis.'
 #'Elife 10 (2021): e61973.
-#'\url{https://doi.org/10.7554/eLife.61973}
+#'\doi{https://doi.org/10.7554/eLife.61973}
 #'
 #'@seealso
 #'\url{https://github.com/Terkild/CITE-seq_optimization}
