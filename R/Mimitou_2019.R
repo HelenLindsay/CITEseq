@@ -1,0 +1,49 @@
+#' Obtain the Mimitou_2019 data
+#'
+#' Obtain the CITE-seq and ECCITE-seq data from Mimitou et al. (2019).
+#'
+#' @details
+#'This study introduces a method ECCITE-seq (expanded CRISPR-compatible
+#'CITE-seq) which allows additional modalities such as CRISPR screens to be
+#'profiled using 5' capture methods. (The original CITE-seq method uses 3'
+#'oligo-dT capture).  This allows the effect of a CRISPR screening experiment
+#'to be measured at both the mRNA and protein level.
+#'
+#'Mimitou et al performed several experiments to benchmark ECCITE-seq:
+#'1. Mixed species CITE-seq and non-targeting CRISPR with hashtag oligos (HTO):
+#'A mixture of human and mouse cells were transduced with non-targeting sgRNAs
+#'
+#'2. Mixed species and sample CITE-seq, non-targeting CRISPR, TCR-seq and HTO:
+#'This experiment profiled a cell mix comprising 65% NIH-3T3 (mouse) cells
+#'transduced with non-targeting sgRNAs, 25% human PBMCs, and 5% each human
+#'MyLa and human Sez4 cells.  The sequencing library consisted of 88% cDNA,
+#'7% guide-tag, 3% hashtag and 2% protein-tags.
+#'
+#'Species was deconvolved using HTOs against human proteins.  All cells were
+#'stained with a mix of anti-human CD29 and anti-mouse CD29 antibodies, and
+#'antibody-derived tags (ADT) binding was consistent with HTO tags.
+#'TCR reads were detected in PBMC and lymphomas.  sgRNAs were detected only
+#'in mouse cells.  HTO enabled distinguishing cells transfected with two sgRNAs
+#'from doublets.
+#'
+#'3. CITE-seq plus CRISPR screen with HTOs
+#'K562 cells were infected with guides targeting 2 cell surface markers
+#'(CD29 and CD46), intracellular signalling molecules (JAK1 and p53) and
+#'2 non-targeting guides.
+#'
+#'4. ECCITE-seq of PBMCs from a healthy donor and a cutaneous
+#'T-cell lymphoma (CTCL) patient.
+#'
+#'Data were downloaded from
+#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126310}
+#'
+#'@references
+#'Mimitou, Eleni P., et al. "Multiplexed detection of proteins
+#'transcriptomes, clonotypes and CRISPR perturbations in single
+#'cells." Nature methods 16.5 (2019): 409-412.
+#'\doi{https://doi.org/10.1038/s41592-019-0392-0}
+#'
+#'@export
+Mimitou_2019 <- function(){
+
+}
