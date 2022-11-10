@@ -13,10 +13,14 @@ Pombo Antunes et al (2021).
 \details{
 CITE-seq of CD45+ cells from one patient with newly diagnosed (ND)
 glioblastoma and two patients with recurrent glioblastoma.  RNA-seq of the
-same recurrent samples is available.
+same recurrent patient samples and additional patient samples is available.
+
+Patient information is included as metadata.  Column names have been
+standardized to lower snake case.  The colData includes the
+cluster identity and assignment from the original study.
 
 In the original study, a library-specific batch effect was observed in these
-samples.
+ADT samples.
 
 Patient information is from Supplementary Table 1 of the original article and
 the CITE-seq antibody panel is in Supplementary Table 14.
