@@ -22,7 +22,7 @@
 #'Arunachalam, Prabhu S., et al. "Systems biological assessment'
 #'of immunity to mild versus severe COVID-19 infection in
 #'humans." Science 369.6508 (2020): 1210-1220.
-#'\url{10.1126/science.abc6261}
+#'\doi{10.1126/science.abc6261}
 #'
 #'@export
 Arunachalam_2020 <- function(){

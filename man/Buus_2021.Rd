@@ -14,13 +14,19 @@ patient from Buus et al (2021).
 CITE-seq of PBMCs from healthy donors and lung tumour cells from a
 single patient.  Different antibody staining conditions were tested.
 
-Data was downloaded from
+Buus \emph{et al} aligned the RNA-seq reads using kallisto to a polyA
+transcriptiome based on the CellRanger GTF.
+
+Data was downloaded from Figshare
 \url{https://doi.org/10.6084/m9.figshare.c.5018987}
+
+Code from the original study is available (link below).
 }
 \references{
 Buus, Terkild B., et al. 'Improving oligo-conjugated
 antibody signal in multimodal single-cell analysis.'
 Elife 10 (2021): e61973.
+\url{https://doi.org/10.7554/eLife.61973}
 }
 \seealso{
 \url{https://github.com/Terkild/CITE-seq_optimization}

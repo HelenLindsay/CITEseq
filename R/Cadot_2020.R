@@ -18,7 +18,7 @@
 #'chronic lymphocytic leukemia during ibrutinib treatment:
 #'evolution of leukemic and immune cells at relapse." Biomarker
 #'research 8.1 (2020): 1-13.
-#'\url{https://doi.org/10.1186/s40364-020-00253-w}
+#'\doi{https://doi.org/10.1186/s40364-020-00253-w}
 #'
 #'@export
 Cadot_2020 <- function(){
