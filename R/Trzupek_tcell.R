@@ -27,10 +27,18 @@
 #' BD Bioscience for cDNA capture.  Reads were aligned using Bowtie2.  Error
 #' correction was performed using BD Biosciences software.
 #'
+#' Data were downloaded from
+#' \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150060}
+#'
+#'@seealso
+#'Trzupek_coeliac data set from the same study.
 #'
 #'@references
-#'
+#'Trzupek, Dominik, et al. "Discovery of CD80 and CD86 as recent activation
+#'markers on regulatory T cells by protein-RNA single-cell analysis."
+#'Genome medicine 12.1 (2020): 1-22.
+#'\doi{https://doi.org/10. 1186/s13073-020-00756-z}
 #'@export
-Trzupek_2020 <- function(){
+Trzupek_tcell <- function(){
 
 }
