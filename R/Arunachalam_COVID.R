@@ -1,4 +1,4 @@
-#' Obtain the Arunachalam_2020 data
+#' Obtain the Arunachalam_COVID data
 #'
 #' Obtain the single cell COVID-19 PBMC CITE-seq data from Arunachalam et al.
 #' (2020).
@@ -7,13 +7,15 @@
 #'CITE-seq of 7 COVID-19 patients and 5 age-matched healthy controls.
 #'Peripheral blood mononuclear cells (PBMCs) were enriched for dendritic
 #'cells using bead enrichment. Enriched cells were mixed with PBMCs at
-#'a 1:2 ratio.  Cell ranger was used for demultiplexing and counting.
+#'a 1:2 ratio.  The antibody panel includes 4 isotype controls.
 #'
 #'The experiment was performed in two batches. No major batch effects were
 #'detected via a UMAP plot in the original study.
 #'
-#'Bulk RNA-seq data for a larger sample pool is also available but not
-#'included here.
+#'Cell ranger was used for demultiplexing and counting.
+#'
+#'Bulk RNA-seq data for a large number of COVID patients is also available but
+#'not included here.
 #'
 #'Data was downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155673}
@@ -25,6 +27,6 @@
 #'\doi{10.1126/science.abc6261}
 #'
 #'@export
-Arunachalam_2020 <- function(){
+Arunachalam_COVID <- function(){
 
 }
