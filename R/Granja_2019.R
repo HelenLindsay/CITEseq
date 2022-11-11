@@ -4,7 +4,7 @@
 #'
 #' @details
 #'This study includes 16 CITE-seq samples of either PBMC,
-#'BMMC (bone marrow mononuclear cells), CDC4 enriched BMMC, BM and MPAL
+#'BMMC (bone marrow mononuclear cells), CDC4 enriched BMMC, BM or MPAL
 #'(mixed phenotype acute leukemia).  One of the MPAL patients was measured
 #'before chemotherapy and 2 replicates after relapse.
 #'
