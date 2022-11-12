@@ -17,6 +17,12 @@
 #'hypothesised that nucleases released by granulocytes depleted mRNA content,
 #'and analysed RNA counts in cell multiplets in support of their hypothesis.
 #'
+#'CYTOF files from this study are available at
+#'\url{https://flowrepository.org/id/FR-FCM-Z3T8}
+#'
+#'Processed CITE-seq data from this study is available at
+#'\url{https://usegalaxy.eu/u/qij01himc/h/rhapbmneut}
+#'
 #'@references
 #'Qi, Jingjing, et al. "Multimodal Single-Cell Characterization of the
 #'Human Granulocyte Lineage." bioRxiv (2021).
