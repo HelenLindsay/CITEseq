@@ -1,0 +1,35 @@
+#' Obtain the Krebs_renal data
+#'
+#' Obtain the blood and kidney CITE-seq data from Krebs et al. (2020).
+#'
+#'@details
+#'CITE-seq of CD3+ T-cells from blood and kidney of renal patients, including
+#'patients with antineutrophil cytoplasmic antibody (ANCA)–associated
+#'glomerulonephritis (GN), a renal autoimmune disease. Samples include:
+#'\itemize{
+#' \item{CD3+ from 3 samples of healthy regions of kidney patients
+#' undergoing tumor nephrectomy (5905 cells)}
+#' \item{CD3+ from blood from patients undergoing tumor nephrectomy}
+#' \item{CD3+ cells from renal biopsies from 6 patients with
+#' ANCA-GN (6829 cells)}
+#' \item{CD3+ cells from blood from 6 patients with ANCA-GN }
+#'}
+#'WE ARE NOT SURE WHETHER THE BLOOD SAMPLES ARE FROM THE SAME PATIENT, PAPER SAYS
+#'"for some of the analyses matched blood samples from the same patient were used"
+#'
+#'CellRanger was used to demultiplex and align RNA and ADT reads.
+#'
+#'Data were downloaded from Figshare
+#'\url{FigShare: https:// figshare.com/s/7912de1afc7fd5bbefd4}
+#'
+#'Mouse scRNA-seq samples are also available but not included here.
+#'
+#'@references
+#'Krebs, Christian F., et al. "Pathogen-induced tissue-resident memory TH17
+#'(TRM17) cells amplify autoimmune kidney disease." Science Immunology 5.50
+#'(2020): eaba4163.
+#'\doi{10.1126/sciimmunol.aba4163}
+#'@export
+Krebs_renal <- function(){
+
+}
