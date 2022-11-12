@@ -3,13 +3,17 @@
 #' Obtain the targeted CITE-seq T-cell data from Trzupek et al. (2020).
 #'
 #' @details
-#' CITE-seq from one systemic lupus erythematosis (SLE) patient, one T1D patient
-#' and one autoantibody-negative healthy donor.  The T1D patient and healthy
+#' CITE-seq from one systemic lupus erythematosis (SLE) patient, one type 1
+#' diabetes patient (T1D)
+#' and one autoantibody-negative healthy donor.  For each patient, one sample
+#' of sorted T-cell subsets and one sample of T-cells stimulated with an
+#' PMA and ionomycin cocktail is available. The T1D patient and healthy
 #' donor were sequenced after the SLE sample with an extended AbSeq panel,
-#' using the same sample preparation method.
+#' using the same sample preparation methods.
 #'
 #' For all samples, CD4+ T-cells were selected
-#' from PBMCs using bead-based negative selection.  Cells were further sorted
+#' from PBMCs using bead-based negative selection.
+#' For the non-stimulated samples, cells were further sorted
 #' by FACs (see below).  Cells were stained simultaneously for FACs and AbSeq.
 #'
 #' The following T-cell subpopulations were isolated from CD4+ T-cells using
