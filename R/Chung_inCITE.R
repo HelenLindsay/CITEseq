@@ -1,4 +1,4 @@
-#' Obtain the Chung_2021 data
+#' Obtain the Chung_inCITE data
 #'
 #' Obtain the HeLa inCITE-seq data from Chung et al. (2021).
 #'
@@ -14,6 +14,6 @@
 #'@references
 #'
 #'@export
-Chung_2021 <- function(){
+Chung_inCITE <- function(){
 
 }
