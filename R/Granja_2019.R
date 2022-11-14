@@ -12,6 +12,9 @@
 #'of the original article, and antibody clone information is in
 #'Supplementary Table 3.
 #'
+#'Three isotype controls were listed in the clone table but are not in the data.
+#'In addition, 17 ADTs are found in the data but not the clone table.
+#'
 #'22 single cell ATAC-seq samples are also available but are not included here.
 #'
 #'Citeseq sequenced across? 2 different sequencing platforms
