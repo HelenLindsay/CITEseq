@@ -1,0 +1,41 @@
+#' Obtain the LeCoz_BBMC data
+#'
+#' Obtain the CITE-seq data an agammaglobulinemia and a healthy control from
+#' LeCoz \emph{et al.} (2021).
+#'
+#'@details
+#'LeCoz \emph{et al} studied patients with agammaglobulinemia, a condition
+#'resulting in a lack of circulating B-cells and dendritic cells. Deficiency of
+#'the transcription factor PU.1 arrests lymphogenesis in mice.
+#'Using whole exome sequencing,
+#'LeCoz \emph{et al} identified six patients with novel mutations in SPI1, the
+#'gene encoding PU.1, from a cohort of agammaglobulinemia patients.
+#'
+#'This data set is CITE-seq of bone marrow mononuclear cells (BMMC) of
+#'agammaglobulinemia patient A.II.2 and an age- and gender-matched healthy
+#'donor control.
+#'The patient was a 15 month old male with active, sytematic echoviremia at the
+#'time of bone marrow aspiration.  Patient A.II.2 subsequently received
+#'hematopoietic stem cell transplantation from an unaffected sibling and LeCoz
+#'\emph{et al} tracked expression of PU.1 in his blood prior to and
+#'post-transplantation.
+#'
+#'CITE-seq counts were geneated using CellRanger v3.1.  For each cell, counts
+#'for the isotype control were subtracted from the ADT counts.
+#'
+#'Data were downloaded from
+#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165645}
+#'
+#'LeCoz \emph{et al} modeled PU.1-mutated agammaglobulinemia in human cord blood
+#'HSPCs.  RNA-seq and ATAC-seq from the molecular studies are also available but
+#'not included in this data set.
+#'
+#'@references
+#'Le Coz, Carole, et al. "Constrained chromatin accessibility in PU. 1-mutated
+#'agammaglobulinemia patients." Journal of Experimental Medicine
+#'218.7 (2021): e20201750.
+#'\doi{https://doi.org/10.1084/jem.20201750}
+#'@export
+LeCoz_BBMC <- function(){
+
+}
