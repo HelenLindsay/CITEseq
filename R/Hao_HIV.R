@@ -12,6 +12,9 @@
 #' different time points were processed together.  Cells were then divided
 # and processed independently for 3P (CITE-seq) and 5P (ECCITE-seq) protocols.
 #'
+#'The ECCITE-seq experiment used a combination of ECCITE-seq and TotalSeq C
+#'reagents for CD45RA and CD45RO.
+#'
 #'Information about the donors is available in the supplementary material
 #'\url{https://ars.els-cdn.com/content/image/1-s2.0-S0092867421005833-mmc3.xlsx}
 #'

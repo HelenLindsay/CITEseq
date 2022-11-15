@@ -18,6 +18,7 @@
 #'"for some of the analyses matched blood samples from the same patient were used"
 #'
 #'CellRanger was used to demultiplex and align RNA and ADT reads.
+#'TCRgd (gamma/delta) occurs in the data but not the ADT distribution Figure S2.
 #'
 #'Data were downloaded from Figshare
 #'\url{FigShare: https:// figshare.com/s/7912de1afc7fd5bbefd4}

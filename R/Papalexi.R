@@ -1,0 +1,16 @@
+#' Obtain the Papalexi data
+#'
+#' Obtain the ECCITE-seq data from Papalexi \emph{et al.} (2021).
+#'
+#'@details
+#'programmed death-ligand (PD-L)1
+#'
+#'@references
+#'Papalexi, Efthymia, et al. "Characterizing the molecular
+#'regulation of inhibitory immune checkpoints with multimodal
+#'single-cell screens." Nature genetics 53.3 (2021): 322-331.
+#'\doi{https://doi.org/10.1038/s41588-021-00778-2}
+#'@export
+Papalexi <- function(){
+
+}
