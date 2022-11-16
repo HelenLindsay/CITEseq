@@ -23,6 +23,12 @@
 #'CITE-seq counts were geneated using CellRanger v3.1.  For each cell, counts
 #'for the isotype control were subtracted from the ADT counts.
 #'
+#'According to the article, this study used a BioLegend TotalSeq A cocktail.
+#'We have created the antibody clone table using information provided by
+#'BioLegend.  We cannot be sure that this information was correct when
+#'the study was performed.  Isotype controls and CD44 are present in the
+#'TotalSeq A cocktail but were not included in this data set.
+#'
 #'Data were downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165645}
 #'

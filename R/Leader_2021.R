@@ -20,16 +20,16 @@
 #' ADT names in the data:
 #' \itemize{
 #'  \item{26 ADTs with correct TotalSeq barcode sequences occur in the data
-#' but not in the antibody clone tables.}
-#'  \item{Two antigens (CD26 and CD28) occur in
+#' but not in the antibody clone tables.  These do not have Vendor information
+#' in the clone table}
+#'  \item{Three antigens (CD127, CD26 and CD28) occur in
 #' both the data and the clone table but the provided barcodes do not match
 #' the vendor supplied barcodes.}
+#' \item{We were unable to match several of the custom antibodies
+#' (i.e. no provided TotalSeq category and 6 nucleotide barcode sequence)
+#' between the data and the clone table, therefore some Data_Name entries are
+#' NA and vice versa}
 #' }
-#'
-#'
-#'
-#'   We were
-#' unable to match two of the antibody clones to the data names.
 #'
 #' Additional RNA-seq samples from 27 patients and scRNA/TCRseq samples from 3
 #' patients are available but not included in this data set.
