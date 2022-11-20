@@ -12,7 +12,9 @@
 #'treatment.  The mouse samples are not included here.
 #'
 #'@references
-#'
+#'Chung, Hattie, et al. "Joint single-cell measurements of nuclear proteins
+#'and RNA in vivo." Nature methods 18.10 (2021): 1204-1212.
+#'\doi{https://doi.org/10.1038/s41592-021-01278-1}
 #'@export
 Chung_inCITE <- function(){
 

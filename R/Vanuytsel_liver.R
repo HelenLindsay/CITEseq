@@ -27,7 +27,7 @@
 #'Nature communications 13.1 (2022): 1-13.
 #'\doi{}
 #'
-#'@seeAlso
+#'@seealso
 #'Code repository \url{https://github.com/CReM-BU/Vanuytsel_hPSC}
 #'Interactive CITE-seq data browser \url{https://engraftable-hsc.cells.ucsc.edu}
 #'@export

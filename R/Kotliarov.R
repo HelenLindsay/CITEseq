@@ -10,6 +10,6 @@
 #'@references
 #'\doi{}
 #'@export
-<- function(){
+Kotliarov <- function(){
 
 }

@@ -8,6 +8,6 @@
 #'@references
 #'\doi{}
 #'@export
-<- function(){
+Witkowski <- function(){
 
 }

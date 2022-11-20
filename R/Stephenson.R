@@ -12,6 +12,6 @@
 #'@references
 #'\doi{}
 #'@export
-<- function(){
+Stephenson <- function(){
 
 }

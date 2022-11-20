@@ -9,6 +9,6 @@
 #'@references
 #'\doi{}
 #'@export
-<- function(){
+Shangguan <- function(){
 
 }
