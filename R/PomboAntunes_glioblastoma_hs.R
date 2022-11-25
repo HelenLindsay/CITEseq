@@ -28,7 +28,7 @@
 #'}
 #'Data was downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163120}
-#'#'
+#'
 #'@references
 #'Pombo Antunes, Ana Rita, et al. "Single-cell profiling of myeloid cells
 #'in glioblastoma across species and disease stage reveals macrophage
@@ -38,6 +38,7 @@
 #'@seealso
 #'Code:
 #'\url{https://github.com/Movahedilab/Glioblastoma}
+#'
 #'Interactive data explorer:
 #'\url{www.brainimmuneatlas.org}
 #'

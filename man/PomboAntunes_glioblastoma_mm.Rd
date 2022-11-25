@@ -13,6 +13,7 @@ Pombo Antunes et al (2021).
 \details{
 CITE-seq of CD45+ cells from GL261 tumors from wildtype and
 Ccr2-knockout mice (tumors from three individual mice pooled per sample).
+The antibody panel includes 6 isotype controls.
 
 The colData includes the cluster identity and assignment
 from the original study.

@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Data: 2022-10-11
 Authors@R: 
     person("Helen", "Lindsay", email = "helen.lindsay@chuv.ch",
-           role = c("aut", "cre")),
+           role = c("aut", "cre"))
     person("Bernat", "Bramon Mora", email = "bernat.bramon@chuv.ch",
            role = c("aut", "cre"))
 Description: Counts for genes and antibody-derived tags for a collection of

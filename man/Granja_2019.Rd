@@ -11,13 +11,16 @@ Obtain the CITE-seq data from Granja et al. (2019).
 }
 \details{
 This study includes 16 CITE-seq samples of either PBMC,
-BMMC (bone marrow mononuclear cells), CDC4 enriched BMMC, BM and MPAL
+BMMC (bone marrow mononuclear cells), CDC4 enriched BMMC, BM or MPAL
 (mixed phenotype acute leukemia).  One of the MPAL patients was measured
 before chemotherapy and 2 replicates after relapse.
 
 Additional information the MPAL samples is available in Supplementary Table 2
 of the original article, and antibody clone information is in
 Supplementary Table 3.
+
+Three isotype controls were listed in the clone table but are not in the data.
+In addition, 17 ADTs are found in the data but not the clone table.
 
 22 single cell ATAC-seq samples are also available but are not included here.
 
