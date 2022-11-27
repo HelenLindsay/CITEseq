@@ -10,7 +10,9 @@
 #'
 #'CHECK - are all antibodies totalseq C?
 #'@references
-#'\doi{}
+#'Stephenson, Emily, et al. "Single-cell multi-omics analysis of the immune
+#'response in COVID-19." Nature medicine 27.5 (2021): 904-916.
+#'\doi{https://doi.org/10.1038/s41591-021-01329-2}
 #'@export
 Stephenson <- function(){
 
