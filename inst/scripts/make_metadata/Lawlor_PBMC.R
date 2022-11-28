@@ -12,13 +12,15 @@ cell_annots <- file.path("inst/metadata",
                          "Lawlor_PBMC_CZI.PBMC.cell.annotations.csv")
 cell_annots <- readr::read_delim(cell_annots)
 
-# singlet by hto and demux
-cell_annots %>% dplyr::filter(HTO_Classification != "Multiplet",
-                      Demuxlet_Classification == "SNG") %>%
-    dplyr::select(HTO_Classification,
-                  Demuxlet_Classification,
-                  Donor_of_Origin) %>%
-    dplyr::summarise(n = n())
+# Identify singlets by HTO and Demuxlet result
+cell_annots <- cell_annots %>%
+    dplyr::mutate(Singlet =
+                      ifelse(Demuxlet_Classification == "SNG" &
+                            ! HTO_Classification %in% c("Multiplet", "Empty"),
+                              TRUE, FALSE),
+                  # Remove "-Sample" from Run_Identifier, make a factor
+                  Run_Identifier =
+                      as.factor(gsub("-Sample", "", Run_Identifier)))
 
-col_data <- data.frame(Individual = gsub("-Sample", "", Run_Identifier),
-                       )
+lawlor_coldata <- DataFrame(cell_annots[, 2:ncol(cell_annots)],
+                            rownames = cell_annots[,1])

@@ -10,7 +10,7 @@
 #'
 #'Additional information the MPAL samples is available in Supplementary Table 2
 #'of the original article, and antibody clone information is in
-#'Supplementary Table 3.
+#'Supplementary Table 3.  Cluster annnotations are in Supplementary Table 1.
 #'
 #'Three isotype controls were listed in the clone table but are not in the data.
 #'In addition, 17 ADTs are found in the data but not the clone table.

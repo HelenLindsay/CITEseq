@@ -33,7 +33,7 @@
 #'
 #'@param mode Which assay(s) should be returned? One or all of c("rna", "adt"),
 #' default return both.
-#'@param singlets_only If TRUE (the default), only cells identified as singlets
+#'@param singlets If TRUE (the default), only cells identified as singlets
 #'in the original study are returned.  If FALSE, all cells are returned.
 #'@references
 #'Lawlor, Nathan, et al. "Single cell analysis of blood mononuclear cells
@@ -43,8 +43,12 @@
 #'@seealso
 #'\url{https://github.com/nlawlor/PBMC_CITEseq}
 #'@export
-Lawlor_PBMC <- function(mode = c("rna", "adt"), singlets_only = TRUE){
+Lawlor_PBMC <- function(mode = c("rna", "adt"), singlets = TRUE){
     mode <- match.arg(mode, c("rna", "adt"), several.ok=TRUE)
 
+
+    if (isTRUE(singlet)){
+       # read lawlor coldata, filter "Singlet" is true, remove column "Singlet"
+    }
 }
 
