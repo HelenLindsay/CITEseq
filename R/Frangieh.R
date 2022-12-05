@@ -11,15 +11,15 @@
 #'immune checkpoint inhibitor resistance (ICR).  Patient-derived melanoma cell
 #'lines expression Cas9 were transduced with the library then either
 #'\itemize{
-#' \item{}
-#' \item{}
+#' \item{co-cultured with autologous tumour-infiltrating lymphocyte (TILs) at
+#' a ratio of 1:1. 2:1 or 4:1}
+#' \item{treated with IFN-gamma}
 #' \item{}
 #'}
 #'
 #'
 #'
-#' co-cultured with
-#'autologous tumour-infiltrating lymphocyte (TILs)
+#'
 #'
 #'@references
 #'Frangieh, Chris J., et al. "Multimodal pooled Perturb-CITE-seq screens in
