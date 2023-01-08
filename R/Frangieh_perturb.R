@@ -12,7 +12,8 @@
 #'immune checkpoint inhibitor resistance (ICR).  Patient-derived melanoma cell
 #'lines stably expressing Cas9 were transduced with the library then either
 #'\itemize{
-#' \item{co-cultured with autologous tumour-infiltrating lymphocyte (TILs)}
+#' \item{co-cultured with autologous tumour-infiltrating lymphocyte (TILs) at
+#' a ratio of 1:1. 2:1 or 4:1}
 #' \item{treated with IFN-gamma (performed in triplicate)}
 #' \item{maintained without treatment (control, performed in triplicate)}
 #'}
