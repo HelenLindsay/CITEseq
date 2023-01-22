@@ -12,7 +12,8 @@
 #'The experiment was performed in two batches. No major batch effects were
 #'detected via a UMAP plot in the original study.
 #'
-#'Cell ranger was used for demultiplexing and counting.
+#'Cell ranger was used for demultiplexing and counting.  Original cell
+#'annotations are present as colData.
 #'
 #'Bulk RNA-seq data for a large number of COVID patients is also available but
 #'not included here.
@@ -27,6 +28,18 @@
 #'\doi{10.1126/science.abc6261}
 #'
 #'@export
-Arunachalam_COVID <- function(){
+Arunachalam_COVID <- function(samples = c("all", "healthy", "COVID-19")){
+
+    # load experiment
+
+    samples <- match.arg(samples)
+    if (! samples == "all"){
+        if (samples == "healthy"){
+            # Subset where disease_status == "Healthy"
+
+        } else if (samples == "COVID-19"){
+            # Subset where disease_status == "COVID-19"
+        }
+    }
 
 }

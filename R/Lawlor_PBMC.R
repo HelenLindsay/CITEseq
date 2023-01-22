@@ -27,6 +27,9 @@
 #'Data were downloaded from
 #'\url{https://www.ebi.ac.uk/ena/browser/view/PRJEB40376}
 #'
+#'Cell annotations were downloaded from
+#'\url{https://data.humancellatlas.org/explore/projects/efea6426-510a-4b60-9a19-277e52bfa815/project-matrices}
+#'
 #'Genotyping of each individual was performed using Illumina BeadChip Arrays.
 #'Genotype information is available at
 #'\url{https://www.ebi.ac.uk/ena/browser/view/ERZ1631464}

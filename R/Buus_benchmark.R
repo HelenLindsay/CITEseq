@@ -13,8 +13,11 @@
 #'
 #'Buus \emph{et al} aligned the RNA-seq reads using kallisto to a polyA
 #'transcriptiome based on the CellRanger GTF.  ADTs and HTOs were aligned
-#'using KITE (kallisto).  Seurat was used for demultiplexing.  Only the cells
-#'assigned as singlets are in this data set.
+#'using KITE (kallisto).  Seurat was used for demultiplexing.
+#'
+#'This data set includes the cells assigned as singlets via hashtag
+#'demultiplexing and scDblFinder, filtered to remove cells with >15%
+#'mitochondrial reads and cells with <= 60 genes expressed.
 #'
 #'Data was downloaded from Figshare
 #'\url{https://doi.org/10.6084/m9.figshare.c.5018987}
@@ -31,6 +34,15 @@
 #'\url{https://github.com/Terkild/CITE-seq_optimization}
 #'
 #'@export
-Buus_benchmark <- function(){
+Buus_benchmark <- function(samples = c("all", "healthy", "lung")){
 
+    samples <- match.arg(samples)
+    if (! samples == "all"){
+        if (samples == "healthy"){
+            # Subset where tissue == "PBMC"
+
+        } else if (samples == "lung"){
+            # Subset where tissue == "Lung"
+        }
+    }
 }
