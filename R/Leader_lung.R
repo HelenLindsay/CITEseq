@@ -1,4 +1,4 @@
-#' Obtain the Leader_2021 data
+#' Obtain the Leader_lung data
 #'
 #' Obtain the lung cancer CITE-seq data from Leader et al. (2021).
 #'
@@ -31,6 +31,8 @@
 #' NA and vice versa}
 #' }
 #'
+#' The original data includes empty cells.
+#'
 #' Additional RNA-seq samples from 27 patients and scRNA/TCRseq samples from 3
 #' patients are available but not included in this data set.
 #'
@@ -48,6 +50,6 @@
 #'\url{www.github.com/effiken/Leader_et_al}
 #'\url{https://scdissector.org/leader}
 #'@export
-Leader_2021 <- function(){
+Leader_lung <- function(){
 
 }

@@ -27,6 +27,6 @@
 #'\doi{10.1126/science.abc6261}
 #'
 #'@export
-Arunachalam_COVID <- function(){
-
+Arunachalam_COVID <- function(condition = c("all", "healthy", "COVID-19")){
+    condition <- match.arg(condition)
 }
