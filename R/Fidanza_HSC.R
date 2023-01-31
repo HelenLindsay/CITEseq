@@ -10,8 +10,16 @@
 #'CD235a- cells were sorted at days 10 and 13 after addition of
 #'differentiation medium to hPSCs. At day 13 suspension cells were further
 #'sorted into CD43+ and CD43- and mixed at a ratio of 25%/75%.
-#'Adherent cells at day 10 and day 13 were sorted into CD31+ and CD31- using
-#'treated as separate samples.
+#'Adherent cells at day 10 and day 13 were sorted into CD31+ and CD31- and
+#'treated as separate samples.  Six libraries were sequenced by CITE-seq:
+#' \itemize{
+#'  \item{Day 10, CD235a- cells from suspension}
+#'  \item{Day 10, C31+ adherent cells}
+#'  \item{Day 10, C31- adherent cells}
+#'  \item{Day 13, CD235a-CD43+, mixed with CD235a-CD43- at a ratio of l:3}
+#'  \item{Day 13, C31+ adherent cells}
+#'  \item{Day 13, C31- adherent cells}
+#' }
 #'
 #'RNA data were aligned to GRCh38 using CellRanger.
 #'
@@ -26,7 +34,7 @@
 #'\doi{10.1182/blood.2020006229}
 #'
 #'@seealso
-#'Code repository: \url{https://github.com/afidanza/scRNAseqHPC}
+#'Code repository: \url{https://github.com/afidanza/ScRNAseq_HPC_humaniPSCs}
 #'
 #'Interactive data browser:
 #'\url{lab.antonellafidanza.com}

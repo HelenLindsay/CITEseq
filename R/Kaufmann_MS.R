@@ -32,6 +32,10 @@
 #'Med 2.3 (2021): 296-312.
 #'\doi{doi: 10.1016/j.medj.2021.01.006}
 #'@export
-Kaufmann_MS <- function(){
+Kaufmann_MS <- function(disease = c("all", "healthy", "RRMS", "PPMS")){
 
+    disease <- match.arg(diesease)
+    if (disease != "all"){
+
+    }
 }

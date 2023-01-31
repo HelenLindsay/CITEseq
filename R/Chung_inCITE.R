@@ -5,8 +5,9 @@
 #' @details
 #'Chung \emph{et al} introduce a new method inCITE-seq (intranuclear CITE-seq)
 #'enabling the measurement of intranuclear transcription factors. This data set
-#'is a HeLa cell line in response to cytokine stimulation with a single
-#'transcription factor (p65) profiled by DNA-conjugated antibodies.
+#'is a HeLa cell line with (condition TNFa) and without (condition NT)
+#'stimulation by TNF-alpha, with intranuclear p65 levels measured by
+#'DNA-conjugated antibodies.
 #'
 #'The study also profiled a mouse brain sample in response to pharmacological
 #'treatment.  The mouse samples are not included here.

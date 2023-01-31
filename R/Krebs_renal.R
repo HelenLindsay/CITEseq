@@ -7,9 +7,9 @@
 #'patients with antineutrophil cytoplasmic antibody (ANCA)–associated
 #'glomerulonephritis (GN), a renal autoimmune disease. Samples include:
 #'\itemize{
-#' \item{CD3+ from 3 samples of healthy regions of kidney patients
+#' \item{CD3+ cells from 3 samples of healthy regions of kidney patients
 #' undergoing tumor nephrectomy (5905 cells)}
-#' \item{CD3+ from blood from patients undergoing tumor nephrectomy}
+#' \item{CD3+ cells from blood from patients undergoing tumor nephrectomy}
 #' \item{CD3+ cells from renal biopsies from 6 patients with
 #' ANCA-GN (6829 cells)}
 #' \item{CD3+ cells from blood from 6 patients with ANCA-GN }

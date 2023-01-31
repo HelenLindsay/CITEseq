@@ -56,6 +56,11 @@ singlets <- lapply(names(sces), function(nm){
 # Bind the sces back into a single matrix, split by tissue and disease?
 
 ######
+# NOTE: e.g.
+# GSE154826_batch_ID_350-350_patient_706-7002N5_matrix/assays.h5
+# has no cells in cell_meta
 
-check_idx <- c(8, 9, 11, 12, 25, 26)
+# batches 350, 351, 49, 50, 94, 95 - 94, 95 were resampled
+
+# IDxs with no cells in cell meta check_idx <- c(8, 9, 11, 12, 25, 26)
 

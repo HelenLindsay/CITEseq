@@ -6,7 +6,7 @@
 #'CITE-seq of immune cells isolated from pancreas tissue from 3 organ donors,
 #'and 5 patients with hereditary chronic pancreatitis (CP) and 4 with idiopathic
 #'CP who underwent pancreatectomy.  Live CD45+ cells were sorted from
-#'digested pancreatic tissue using FACs. Counts were generated using
+#'digested exocrine pancreatic tissue using FACs. Counts were generated using
 #'CellRanger v3.1.0.  Sample metadata is from Supplementary Table 1.  Aggregate
 #'statistics of donor samples are in Table 1 of the original article.
 #'
@@ -24,6 +24,8 @@
 #'Gut 71.9 (2022): 1831-1842.
 #'\doi{http://dx.doi.org/10.1136/gutjnl-2021-324546}
 #'@export
-Lee_pancreas <- function(){
+Lee_pancreas <- function(condition = c("all", "organ_donor", "pancreatitis")){
+    # Attach extra metadata
+
 
 }
