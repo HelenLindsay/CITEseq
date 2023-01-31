@@ -12,6 +12,24 @@
 #'
 #'Sequencing was performed in 3 batches.
 #'
+#'Cell enrichment was performed as follows:
+#'Batch1:
+#' B, T, CD14+ monocyte and CD14- innate cell populations:
+#' B cell population was gated by CD45+CD19+CD3-
+#' T cell population was gated by CD45+CD3+CD19-
+#' monocyte population was gated by CD45+CD3-CD19-CD14+
+#' other myeloid cells were gated by CD45+CD3-CD19-CD14-
+#' Gated populations were sorted and pooled with unsorted PBMCs at a ratio of
+#' 1:1:1:1
+#'
+#'Batches 2 and 3:
+#'non-naïve T and B cells
+#' Non-naïve B cell population was gated by CD45+CD19+IgD- or CD27+
+#' Non-naïve T cell population was gated by CD45+CD3+CCR7low or CD95+.
+#'
+#'For the healthy controls, CITE-seq of buffy coat and PBMC were performed but
+# only PBMCs were used in the original analysis
+#'
 #'Data were downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161918}
 #'
@@ -27,6 +45,7 @@
 #'Data browser:
 #'\url{https:// cellxgene.cziscience.com/collections/ed9185e3-5b82-40c7-9824-b2141590c7f0}
 #'@export
-Liu_COVID <- function(){
+Liu_COVID <- function(missasigned = FALSE){
+    # colData includes "missasigned" category, exclude by default?
 
 }
