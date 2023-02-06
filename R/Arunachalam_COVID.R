@@ -19,7 +19,7 @@
 #'not included here.
 #'
 #'Data was downloaded from
-#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155673}
+#'\url{https://fh-pi-gottardo-r-eco-public.s3.amazonaws.com/SingleCellDatasets/}
 #'
 #'@references
 #'Arunachalam, Prabhu S., et al. "Systems biological assessment'

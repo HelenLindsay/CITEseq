@@ -21,7 +21,7 @@
 #'were removed, as were cells with >10% mitochondrial RNA reads.
 #'
 #'Data were downloaded from
-#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134759}.
+#'\url{https://fh-pi-gottardo-r-eco-public.s3.amazonaws.com/SingleCellDatasets/}.
 #'Several ADTs occur in the data with no corresponding entry in the clone table.
 #'As there are zero counts for the isotype controls, we assume isotype count has
 #'been subtracted from the ADT counts.

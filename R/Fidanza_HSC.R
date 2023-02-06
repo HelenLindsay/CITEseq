@@ -23,10 +23,13 @@
 #'
 #'RNA data were aligned to GRCh38 using CellRanger.
 #'
-#'scRNA-seq of CD235a-CD43+ cells from 2 replicate cultures is available
-#'but not included in this data set.
+#'Data were downloaded from
+#'\url{https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9295/samples/?query=fidanza}
 #'
 #'A code repository is available (see below).
+#'
+#'scRNA-seq of CD235a-CD43+ cells from 2 replicate cultures is available
+#'but not included in this data set.
 #'@references
 #'Fidanza, Antonella, et al. "Single-cell analyses and machine learning define
 #'hematopoietic progenitor and HSC-like cells derived from human PSCs."

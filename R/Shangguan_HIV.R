@@ -29,6 +29,8 @@
 #'
 #'TO DO: (BERNAT?) CHECK HOW RNA IS NORMALISED
 #'
+#'Data were downloaded from \url{https://doi.org/10.6084/m9.figshare.c.5416197}
+#'
 #'A code repository is available (see below).
 #'@references
 #'Shangguan, Shida, et al. "Monocyte-derived transcriptome signature indicates

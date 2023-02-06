@@ -16,9 +16,9 @@
 #'were generated using CITE-Seq-Count v 1.4.2.  The mouse spike in fraction was
 #'used for setting doublet thresholds and detecting non-specific binding.
 #'
-#'Count data was downloaded from
-#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE160251}.
-#'Column data was downloaded from the interactive data browser.
+#'ADT count data was provided by the corresponding author.
+#'Column data was downloaded from the interactive data browser
+#'\url{https://cells.ucsc.edu/?ds=engraftable-hsc}.
 #'
 #'A code repository is available (See below).
 #'@references

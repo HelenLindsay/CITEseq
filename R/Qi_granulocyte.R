@@ -17,6 +17,9 @@
 #'hypothesised that nucleases released by granulocytes depleted mRNA content,
 #'and analysed RNA counts in cell multiplets in support of their hypothesis.
 #'
+#'Data were downloaded from
+#'\url{https://himc-project-data.s3.amazonaws.com/ADRA_RnD/sent_out/Neutrophil_BoneMarrow_WholeBlood_10X_Rhapsody.tar.gz}
+#'
 #'CYTOF files from this study are available at
 #'\url{https://flowrepository.org/id/FR-FCM-Z3T8}
 #'

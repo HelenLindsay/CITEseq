@@ -33,12 +33,15 @@
 #'
 #' The original data includes empty cells.
 #'
-#' Additional RNA-seq samples from 27 patients and scRNA/TCRseq samples from 3
-#' patients are available but not included in this data set.
+#' Data were downloaded from
+#' \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154826}
 #'
 #' A repository containing code used in the original analysis and processed
 #' data is also available (see below).  Cell to cluster annotations are included
 #' in this repository.
+#'
+#' Additional RNA-seq samples from 27 patients and scRNA/TCRseq samples from 3
+#' patients are available but not included in this data set.
 #'
 #'@references
 #'Leader, Andrew M., et al. "Single-cell analysis of human non-small cell

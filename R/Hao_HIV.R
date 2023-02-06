@@ -15,6 +15,9 @@
 #'The ECCITE-seq experiment used a combination of ECCITE-seq and TotalSeq C
 #'reagents for CD45RA and CD45RO.
 #'
+#'Data were downloaded from
+#'\url{https://atlas.fredhutch.org/nygc/multimodal-pbmc}
+#'
 #'Information about the donors is available in the supplementary material
 #'\url{https://ars.els-cdn.com/content/image/1-s2.0-S0092867421005833-mmc3.xlsx}
 #'

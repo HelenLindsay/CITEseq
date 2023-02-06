@@ -24,6 +24,9 @@
 #'or >18% of RNA reads from mitochondrial genes were removed.  This data set
 #'contains 126966 cells meeting the above criteria.
 #'
+#'Data were downloaded from
+#'\url{https://singlecell.broadinstitute.org/single_cell/study/SCP1064/multi-modal-pooled-perturb-cite-seq-screens-in-patient-models-define-novel-mechanisms-of-cancer-immune-evasion}
+#'
 #'A code repository and data browser are available (see below).
 #'
 #'@references
@@ -31,7 +34,10 @@
 #'patient models define mechanisms of cancer immune evasion." Nature genetics
 #'53.3 (2021): 332-341.
 #'\doi{https://doi.org/10.1038/s41588-021-00779-1}
-#'@seealso \url{https://github.com/klarman-cell-observatory/Perturb-CITE-Seq}
+#'@seealso
+#'Code repository:
+#'\url{https://github.com/klarman-cell-observatory/Perturb-CITE-Seq}
+#'Data browser:
 #'\url{https://singlecell.broadinstitute.org/single_cell/study/SCP1064/multi-modal-pooled-perturb-cite-seq-screens-in-patient-models-define-novel-mechanisms-of-cancer-immune-evasion#study-visualize}
 #'@export
 Frangieh_perturb <- function(){

@@ -11,6 +11,9 @@
 #'
 #'CD206 is present in the data but missing from the clone table.
 #'
+#'Data were downloaded from
+#'\url{https://nih.figshare.com/collections/Data_and_software_code_repository_for_Broad_immune_activation_underlies_shared_set_point_signatures_for_vaccine_responsiveness_in_healthy_individuals_and_disease_activity_in_patients_with_lupus_Kotliarov_Y_Sparks_R_et_al_Nat_Med_DOI_https_d/4753772}
+#'
 #'@references
 #'\doi{}
 #'@export

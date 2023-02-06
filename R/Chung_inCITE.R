@@ -9,9 +9,11 @@
 #'stimulation by TNF-alpha, with intranuclear p65 levels measured by
 #'DNA-conjugated antibodies.
 #'
+#'Data were downloaded from
+#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163480}
+#'
 #'The study also profiled a mouse brain sample in response to pharmacological
 #'treatment.  The mouse samples are not included here.
-#'
 #'@references
 #'Chung, Hattie, et al. "Joint single-cell measurements of nuclear proteins
 #'and RNA in vivo." Nature methods 18.10 (2021): 1204-1212.

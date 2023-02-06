@@ -7,8 +7,11 @@
 #'CITE-seq of memory T-cells in 259 individuals, including 128 cases at least
 #'4 years post recovery from tuberculosis (TB) and 131 controls
 #'(household contacts with positive tuberculosis skin test who didn't develop
-#'TB disease). 12 samples have technical replicates.
+#'TB disease). 12 samples have technical replicates sequenced in different
+#'batches (271 total samples).
 #'Detailed genotype and phenotype data is also available from dbGaP on request.
+#'This is a case-control study, however this data set does not include the
+#'relationship between cases and their matching controls.
 #'
 #'Data were downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158769}

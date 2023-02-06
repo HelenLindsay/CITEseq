@@ -25,6 +25,8 @@
 #' combined for staining for AbSeq. Cells from the combined resting and
 #' combined stimulated samples were captured separately.
 #'
+#'Data were downloaded from \url{https://osf.io/edctn/}
+#'
 #'@seealso
 #'Trzupek_tcell data set from previous work by the same group.
 #'

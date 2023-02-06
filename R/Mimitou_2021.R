@@ -4,6 +4,10 @@
 #'
 #' @details
 #'Introduces a new method ASAP-seq (ATAC-seq with selected antigen profiling).
+#'
+#'Data were downloaded from
+#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156478}
+#'
 #'@references
 #'Mimitou, Eleni P., et al. "Scalable, multimodal profiling of chromatin
 #'accessibility, gene expression and protein levels in single cells."

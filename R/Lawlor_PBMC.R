@@ -24,11 +24,8 @@
 #'A code repository and shiny app of the original analyses are available
 #'(see below).
 #'
-#'Data were downloaded from
-#'\url{https://www.ebi.ac.uk/ena/browser/view/PRJEB40376}
-#'
-#'Cell annotations were downloaded from
-#'\url{https://data.humancellatlas.org/explore/projects/efea6426-510a-4b60-9a19-277e52bfa815/project-matrices}
+#'Data and cell annotations were downloaded from
+#'\url{https://data.humancellatlas.org/explore/projects/efea6426-510a-4b60-9a19-277e52bfa815}
 #'
 #'Genotyping of each individual was performed using Illumina BeadChip Arrays.
 #'Genotype information is available at

@@ -10,6 +10,9 @@
 #'
 #'Counts were generated with Cell Ranger v3.1.
 #'
+#'Data were downloaded from
+#'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143363}
+#'
 #'Bulk RNA-seq and whole exome sequencing of a larger patient group is
 #'available but not included in this data set.
 #'
