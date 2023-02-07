@@ -10,7 +10,9 @@
 #'four samples from different time points were taken from each COVID-19 patient,
 #'starting from the time of hospital admission.
 #'
-#'Sequencing was performed in 3 batches.
+#'Sequencing was performed in 3 batches.  Sample pools containing samples from
+#'multiple donor were labelled with HTOs and demultiplexed using HTODemux.
+#'SNP demultiplexing (demuxlet) was used to separate cells by donor.
 #'
 #'Cell enrichment was performed as follows:
 #'Batch1:

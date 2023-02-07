@@ -6,6 +6,9 @@
 #'CITE-seq of PMBCs from a healthy donor. Cells were labelled with 12 antibodies
 #'in a 5-point titration curve.
 #'
+#'This data set contains normalised, quality-control filtered counts.
+#'
+#'
 #'Data were downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144434}
 #'
