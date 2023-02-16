@@ -17,8 +17,8 @@
 #'scRNAseq, and CITE-seq of blood or PBMCs from participants in human HIV
 #'vaccine trials.
 #'
-#'This data set includes the CITE-seq.  ADCP was measured in a separate assay,
-#'and the ADCP status of each participant is in the sample metadata.
+#'This data set includes the CITE-seq samples.  ADCP was measured in a separate
+#'assay, and the ADCP status of each participant is in the sample metadata.
 #'
 #'For CITE-seq, PBMC samples were stained with hashtag oligonucleotides (HTO)
 #'and processed in two batches.  Counts were generated using CellRanger v3.1.0.
@@ -26,8 +26,6 @@
 #'mitochondrial genes were removed.  Isotype controls were included in the
 #'antibody staining panel and were used for normalizing the the data.  The
 #'isotype controls are not in the data set.
-#'
-#'TO DO: (BERNAT?) CHECK HOW RNA IS NORMALISED
 #'
 #'Data were downloaded from \url{https://doi.org/10.6084/m9.figshare.c.5416197}
 #'

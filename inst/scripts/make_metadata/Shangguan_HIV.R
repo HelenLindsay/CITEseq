@@ -11,7 +11,7 @@ sample_metadata <- readr::read_delim(sample_meta_local) %>%
 
 # Get tsne coordinates from original study
 tsne_web <- "https://figshare.com/ndownloader/files/27926424"
-tsne_local <- "inst/metadata/Shangguan_HIV_sample_metadata.txt"
+tsne_local <- "inst/metadata/Shangguan_tsne.Rds"
 download.file(tsne_web, destfile = tsne_local)
 
 tsne <- readr::read_rds(tsne_local)
