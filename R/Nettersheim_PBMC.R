@@ -11,11 +11,13 @@
 #'Data were downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213282}
 #'
+#'Note that we were unable to identify all of the antibody clones used
+#'in this study.
+#'
 #'@references
 #'Nettersheim, Felix Sebastian, et al. "Titration of 124 antibodies using
 #'CITE-Seq on human PBMCs." Scientific reports 12.1 (2022): 20817.
 #'\doi{https://doi.org/10.1038/s41598-022-24371-7}
 #'@export
 Nettersheim_PBMC <- function(){
-
 }
