@@ -5,9 +5,10 @@
 #'@details
 #'CITE-seq of cells from enzymatically digested pancreatic islets, and
 #'undigested (mechanically separated) spleen cells from the same donor.
-#'Pancreatic islets enriched for CD45+ cells, and a subset was further sorted by flow
-#'cytometry to exclude cells expressing lineage markers, i.e. retain innate
-#'lymphoid cells (ILCs).
+#'Pancreatic islets and spleen cells were enriched for CD45+ cells. A subset
+#'of the islet cells was further sorted by flow
+#'cytometry to exclude cells expressing lineage markers, i.e. enrich for
+#'natural killer and innate lymphoid cells (ILCs).
 #'
 #'CITE-seq data were downloaded from
 #'\url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224767}
